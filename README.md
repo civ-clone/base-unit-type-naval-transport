@@ -1,4 +1,3 @@
 # base-unit-type-naval-transport
 
-This is a template repo.
-
+A `NavalTransport` implementation. Superclass for `Trireme`, `Sail`, `Frigate` and `Transport`.

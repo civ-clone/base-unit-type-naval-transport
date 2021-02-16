@@ -62,7 +62,9 @@ export class NavalTransport extends Naval implements INavalTransport {
       return false;
     }
 
-    this.#transportRegistry.register(new TransportManifest(this, unit));
+    this.#transportRegistry.register(
+      new TransportManifest(this as ITransport, unit)
+    );
 
     // TODO: use a rule to trigger this?
     unit.action(new Sleep(unit.tile(), unit.tile(), unit));
