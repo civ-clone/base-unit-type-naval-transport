@@ -1,6 +1,6 @@
 {
   "name": "@civ-clone/base-unit-type-naval-transport",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": "git@github.com:civ-clone/base-unit-type-naval-transport.git",
   "keywords": [
     "typescript",
